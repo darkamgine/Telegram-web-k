@@ -14,10 +14,10 @@ const rootDir = resolve(__dirname);
 
 const handlebarsPlugin = handlebars({
   context: {
-    title: 'Telegram Web',
-    description: 'Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.',
-    url: 'https://web.telegram.org/k/',
-    origin: 'https://web.telegram.org/'
+    title: 'AWS Cost Estimator',
+    description: 'Provide estimates on AWS Costs',
+    url: 'aws-cost-estimator.frii.site',
+    origin: 'https://instances.vantage.sh'
   }
 });
 
